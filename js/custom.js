@@ -134,39 +134,75 @@ $(document).ready(function()
 			var playlist = 
 			[
 				{
-					title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3",
-					duration:"2.33"
+					title:"All I can do is cry",
+					artist:"Stompin'Bones",
+					mp3:"files\All_I_can_do_is_cry.mp3",
+					duration:"2.15"
 				},
 				{
-					title:"Dubstep",
-					artist:"Bensound",
+					title:"Gambling Barroom",
+					artist:"Stompin'Bones",
+					mp3:"files/gambling_Barroom.mp3",
+					duration:"2.15"
+				},
+				{
+					title:"Deep down in my soul",
+					artist:"Stompin'Bones",
 					mp3:"files/bensound-dubstep.mp3",
 					duration:"2.04"
 				},
 				{
-					title:"Sunny",
-					artist:"Bensound",
-					mp3:"files/bensound-sunny.mp3",
+					title:"Hard Time",
+					artist:"Stompin'Bones",
+					mp3:"files/Hard_time.mp3",
 					duration:"2.20"
 				},
 				{
-					title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3",
+					title:"Lost Soul",
+					artist:"Stompin'Bones",
+					mp3:"files/Lost_Soul.mp3",
 					duration:"2.33"
 				},
 				{
-					title:"Dubstep",
-					artist:"Bensound",
-					mp3:"files/bensound-dubstep.mp3",
+					title:"Paddle Alone",
+					artist:"Stompin'Bones",
+					mp3:"files/Paddle-alone.mp3",
 					duration:"2.04"
 				},
 				{
-					title:"Sunny",
-					artist:"Bensound",
-					mp3:"files/bensound-sunny.mp3",
+					title:"Ride the Blind",
+					artist:"Stompin'Bones",
+					mp3:"files\ride-the-blind.mp3",
+					duration:"2.15"
+				},
+				{
+					title:"Saint James Infirmery",
+					artist:"Stompin'Bones",
+					mp3:"files\Saint-James-infirmery.mp3",
+					duration:"2.15"
+				},
+				{
+					title:"Stomping Blues",
+					artist:"Stompin'Bones",
+					mp3:"files\Stomping-blues.mp3",
+					duration:"2.15"
+				},
+				{
+					title:"Stomping Bones",
+					artist:"Stompin'Bones",
+					mp3:"files\Stomping-bones.mp3",
+					duration:"2.15"
+				},
+				{
+					title:"Stranger Things",
+					artist:"Stompin'Bones",
+					mp3:"files\Stranger_things.mp3",
+					duration:"2.15"
+				},
+				{
+					title:"The Wolf",
+					artist:"Stompin'Bones",
+					mp3:"files/The_Wolf.mp3",
 					duration:"2.20"
 				}
 			];

@@ -99,9 +99,9 @@ $(document).ready(function()
 			$("#jplayer_1").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Days",
+						title:"Better Da",
 							artist:"Bensound",
-							mp3:"files/bensound-betterdays.mp3"
+							mp3:"files/Saint-James-infirmery.mp3"
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -131,7 +131,7 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Dubstep",
+						title:"Dubste",
 						artist:"Bensound",
 						mp3:"files/bensound-dubstep.mp3",
 					});
@@ -163,7 +163,7 @@ $(document).ready(function()
 			$("#jplayer_3").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Sunny",
+						title:"Sunn",
 						artist:"Bensound",
 						mp3:"files/bensound-sunny.mp3",
 					});
