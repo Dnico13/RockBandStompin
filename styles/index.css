@@ -1,7 +1,45 @@
 .logo {
-    width: 6.25rem;
+    width: 3.5rem;
     height: auto;
-    border-radius: 4rem;
+   
     box-shadow: 0.625rem 0.625rem 0.625rem  gray;
+}
+
+.indent {
+    text-indent: 0.5rem;
+}
+
+
+
+/* video.php */
+
+.mainvideo{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerVideo {
+    margin: 2%;
+    text-align: center;
+    
+}
+
+
+.video {
+border: 0.5rem solid white;
+margin: 3% 3% 3% 0%;
+/*padding: 0,5%;*/
+box-shadow: rgba(68, 18, 216, 0.971) 6px 4px 0px;
+border-radius: 34% 14% 34% 14%;
+width: Auto;
+height: Auto;
+
+
 }
 /*width: 6.25rem;*/

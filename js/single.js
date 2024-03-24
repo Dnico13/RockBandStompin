@@ -99,9 +99,9 @@ $(document).ready(function()
 			$("#jplayer_1").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Da",
-							artist:"Bensound",
-							mp3:"files/Saint-James-infirmery.mp3"
+						title:"All I can do is cry",
+							artist:"Stompin'Bones",
+							mp3:"files/All_I_can_do_is_cry.mp3"
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -131,9 +131,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Dubste",
-						artist:"Bensound",
-						mp3:"files/bensound-dubstep.mp3",
+						title:"Saint James Infirmery",
+						artist:"Stompin'Bones",
+						mp3:"files/Saint-James-infirmery.mp3",
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -163,9 +163,9 @@ $(document).ready(function()
 			$("#jplayer_3").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Sunn",
-						artist:"Bensound",
-						mp3:"files/bensound-sunny.mp3",
+						title:"Lost Soul",
+						artist:"Stompin'Bones",
+						mp3:"files/Lost_Soul.mp3",
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.

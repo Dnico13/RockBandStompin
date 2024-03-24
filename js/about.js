@@ -99,9 +99,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Days",
-							artist:"Bensound",
-							mp3:"files/bensound-betterdays.mp3"
+						title:"Saint James Infirmery",
+							artist:"Stompin'Bones",
+							mp3:"files/saint-James-infirmery.mp3"
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.

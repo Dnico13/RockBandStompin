@@ -136,74 +136,74 @@ $(document).ready(function()
 				{
 					title:"All I can do is cry",
 					artist:"Stompin'Bones",
-					mp3:"files\All_I_can_do_is_cry.mp3",
-					duration:"2.15"
+					mp3:"files/All_I_can_do_is_cry.mp3",
+					duration:"3.01"
 				},
 				{
 					title:"Gambling Barroom",
 					artist:"Stompin'Bones",
 					mp3:"files/gambling_Barroom.mp3",
-					duration:"2.15"
+					duration:"3.32"
 				},
 				{
 					title:"Deep down in my soul",
 					artist:"Stompin'Bones",
-					mp3:"files/bensound-dubstep.mp3",
-					duration:"2.04"
+					mp3:"files/Deep_down_in_my_soul.mp3",
+					duration:"1.37"
 				},
 				{
 					title:"Hard Time",
 					artist:"Stompin'Bones",
 					mp3:"files/Hard_time.mp3",
-					duration:"2.20"
+					duration:"2.23"
 				},
 				{
 					title:"Lost Soul",
 					artist:"Stompin'Bones",
 					mp3:"files/Lost_Soul.mp3",
-					duration:"2.33"
+					duration:"3.20"
 				},
 				{
 					title:"Paddle Alone",
 					artist:"Stompin'Bones",
 					mp3:"files/Paddle-alone.mp3",
-					duration:"2.04"
+					duration:"3.58"
 				},
 				{
 					title:"Ride the Blind",
 					artist:"Stompin'Bones",
-					mp3:"files\ride-the-blind.mp3",
-					duration:"2.15"
+					mp3:"files/ride-the-blind.mp3",
+					duration:"2.23"
 				},
 				{
 					title:"Saint James Infirmery",
 					artist:"Stompin'Bones",
-					mp3:"files\Saint-James-infirmery.mp3",
-					duration:"2.15"
+					mp3:"files/Saint-James-infirmery.mp3",
+					duration:"3.46"
 				},
 				{
 					title:"Stomping Blues",
 					artist:"Stompin'Bones",
-					mp3:"files\Stomping-blues.mp3",
-					duration:"2.15"
+					mp3:"files/Stomping-blues.mp3",
+					duration:"1.53"
 				},
 				{
 					title:"Stomping Bones",
 					artist:"Stompin'Bones",
-					mp3:"files\Stomping-bones.mp3",
-					duration:"2.15"
+					mp3:"files/Stomping-bones.mp3",
+					duration:"2.46"
 				},
 				{
 					title:"Stranger Things",
 					artist:"Stompin'Bones",
-					mp3:"files\Stranger_things.mp3",
-					duration:"2.15"
+					mp3:"files/Stranger_things.mp3",
+					duration:"2.36"
 				},
 				{
 					title:"The Wolf",
 					artist:"Stompin'Bones",
 					mp3:"files/The_Wolf.mp3",
-					duration:"2.20"
+					duration:"3.56"
 				}
 			];
 
@@ -318,9 +318,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-				title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3"
+				title:"Saint James Infirmery",
+					artist:"Stompin'Bones",
+					mp3:"files/Saint-James-infirmery.mp3"
 			});
 		},
 		play: function() { // To avoid multiple jPlayers playing together.
