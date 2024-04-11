@@ -91,6 +91,7 @@ require_once 'template/header.php';
 							<div class="section_subtitle">Events</div>
 							<div class="section_title">
 								<h1>Featured Album</h1>
+								<h2 class="h6 text-secondary">Découvrez les 30 premieres secondes de nos morceaux</h2>
 							</div>
 						</div>
 					</div>

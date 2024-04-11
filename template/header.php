@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-<title>Les Stompin'Bones: Groupe de Rock de la region Paloise.</title>
+	<title>Les Stompin'Bones: Groupe de Rock de la region Paloise.</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,5 +39,15 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-TSRL6SWD');
 	</script>
 	<!-- End Google Tag Manager -->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TPS74VPS36"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-	
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-TPS74VPS36');
+	</script>
