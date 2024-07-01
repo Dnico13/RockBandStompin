@@ -3,11 +3,11 @@
 
 <head>
 	<title>Les Stompin'Bones: Groupe de Rock de la region Paloise.</title>
-
+	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Site Stompin'Bones: groupe de rock de la region Paloise.">
-	<meta name="keyword" content="Groupe de rock, pau, contrebasse, guitare, Crazy Blues, Rockabilly, Psychobilly, sud-ouest, bayonne">
+	<meta name="description" content="Website des  Stompin'Bones: groupe de rock de la region Paloise.">
+	<meta name="keyword" content="Groupe de rock, pau, contrebasse, guitare, Crazy Blues, Rockabilly, Psychobilly, sud-ouest, bayonne,">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -19,7 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 	<link rel="stylesheet" href="styles/index.css" type="text/css">
-
+	<link rel="stylesheet" href="styles/about1.css">
 
 	<!-- Google Tag Manager -->
 	<script>
@@ -51,3 +51,4 @@
 
 		gtag('config', 'G-TPS74VPS36');
 	</script>
+	</head>

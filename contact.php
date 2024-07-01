@@ -24,8 +24,8 @@ require_once 'template/header.php';
                 <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
                 <div class="home_container">
                     <div class="home_content text-center">
-                        <div class="home_subtitle">Just us</div>
-                        <div class="home_title">Contact</div>
+                        <div class="home_subtitle">Pour nous</div>
+                        <div class="home_title">Contacter</div>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@ require_once 'template/header.php';
                                 <input type="text" class="contact_input" placeholder="Nom" required="required">
                                 <input type="text" class="contact_input" placeholder="Prenom" required="required">
                                 <input type="email" class="contact_input" placeholder="E-mail" required="required">
-                                <input type="text" class="contact_input" placeholder="Object">
+                                <input type="text" class="contact_input" placeholder="Object" required="required">
                                 <textarea class="contact_input contact_textarea" placeholder="Votre Message" required="required"></textarea>
                                 <button class="contact_button">Envoyer</button>
                             </form>
@@ -55,38 +55,46 @@ require_once 'template/header.php';
                     <div class="col-lg-6 contact_col">
                         <div class="contact_info">
                             <div class="contact_title">Où nous trouver...</div>
-                            <div class="contact_text">
+                            <!--<div class="contact_text">
                                 <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
-                            </div>
+                            </div>-->
                             <div class="contact_info_list">
                                 <ul>
                                     <li class="d-flex flex-row align-items-start justify-content-start">
                                         <div>
                                             <div>Adresse</div>
                                         </div>
-                                        <div>1481 Creekside Lane Avila Beach, CA 931</div>
+                                        <div>
+                                            Association Rockin out<br>
+                                            11 rue Berlioz<br>
+                                            64000 PAU
+                                        </div>
                                     </li>
                                     <li class="d-flex flex-row align-items-start justify-content-start">
                                         <div>
                                             <div>Téléphone</div>
                                         </div>
-                                        <div>06 06 06 06 06</div>
+                                        <div>
+                                            <a href="telto: +33628494386" title="+33 628 494 386">+33 628 494 386</a>
+                                        </div>
                                     </li>
                                     <li class="d-flex flex-row align-items-start justify-content-start">
                                         <div>
                                             <div>E-mail</div>
                                         </div>
-                                        <div>yourmail@gmail.com</div>
+                                        <div>
+                                            <a href="mailto: contact@stompin-bones.fr" title="Email de contact">contact@stompin-bones.fr</a>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="social">
                                 <ul class="d-flex flex-row align-items-center justify-content-start">
                                     <!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 2rem;"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 2rem;"></i></a></li>
+                                    <li><a href="https://www.facebook.com/people/Stompinbones/100066665325532" target="_blank" title="Lien Facebook"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 3rem;" ></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCXsiOpECrgq7XfnORE-qXzw" target="_blank" title="Lien YouTube"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 3rem;" title="lien YouTube"></i></a></li>
                                     <!--<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
-                                    <!--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>-->
+                                    <!--<li><a href="#"><i class="fa fa-dribbble" aria-hiden="true"></i></a></li>-->
                                     <!--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
                                 </ul>
