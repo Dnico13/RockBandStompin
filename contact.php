@@ -1,8 +1,12 @@
 <?php
 require_once 'template/header.php';
+require_once 'fonction/sendContact.php';
 ?>
+
 <link rel="stylesheet" href="styles/contact.css">
-</head>
+
+
+
 
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -10,12 +14,12 @@ require_once 'template/header.php';
     <!-- End Google Tag Manager (noscript) -->
 
 
+    <?php
+    require_once 'template/menu.php';
+    ?>
 
     <div class="super_container">
 
-        <?php
-        require_once 'template/menu.php';
-        ?>
         <!-- Home -->
 
         <div class="home">
@@ -40,17 +44,21 @@ require_once 'template/header.php';
                     <div class="col-lg-6">
                         <div class="contact_form_container">
                             <div class="contact_title">Envoyer un message...</div>
-                            <form action="#" class="contact_form" id="contact_form">
-                                <input type="text" class="contact_input" placeholder="Nom" required="required">
-                                <input type="text" class="contact_input" placeholder="Prenom" required="required">
-                                <input type="email" class="contact_input" placeholder="E-mail" required="required">
-                                <input type="text" class="contact_input" placeholder="Object" required="required">
-                                <textarea class="contact_input contact_textarea" placeholder="Votre Message" required="required"></textarea>
-                                <button class="contact_button">Envoyer</button>
+                            <form action="" method="post" class="contact_form" id="contact_form">
+
+                                <input type="text" class="contact_input" placeholder="Nom" required="required" name="nom">
+                                <input type="text" class="contact_input" placeholder="Prenom" required="required" name="prenom">
+                                <input type="email" class="contact_input" placeholder="E-mail" required="required" name="email">
+                                <input type="tel" class="contact_input" placeholder="Numéro de téléphone" required="required" name="phone">
+                                <input type="text" class="contact_input" placeholder="Objet" required="required" name="detail">
+                                <input type="hidden" name="objet" value="contact@stompin-bones.fr">
+                                <textarea class="contact_input contact_textarea" placeholder="Votre Message" required="required" name="message"></textarea>
+                                <button class="contact_button" type="submit" name="submit">Envoyer</button>
+
                             </form>
                         </div>
                     </div>
-
+<?php sendContact()?>
                     <!-- Contact Info -->
                     <div class="col-lg-6 contact_col">
                         <div class="contact_info">
@@ -91,7 +99,7 @@ require_once 'template/header.php';
                             <div class="social">
                                 <ul class="d-flex flex-row align-items-center justify-content-start">
                                     <!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
-                                    <li><a href="https://www.facebook.com/people/Stompinbones/100066665325532" target="_blank" title="Lien Facebook"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 3rem;" ></i></a></li>
+                                    <li><a href="https://www.facebook.com/people/Stompinbones/100066665325532" target="_blank" title="Lien Facebook"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 3rem;"></i></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCXsiOpECrgq7XfnORE-qXzw" target="_blank" title="Lien YouTube"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 3rem;" title="lien YouTube"></i></a></li>
                                     <!--<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
                                     <!--<li><a href="#"><i class="fa fa-dribbble" aria-hiden="true"></i></a></li>-->

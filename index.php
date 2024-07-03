@@ -36,7 +36,7 @@ require_once 'template/header.php';
 								<div class="home_content text-center">
 									<!--<div class="home_subtitle">New single release</div>-->
 									<div class="home_title">
-										<h1 class="h1">The Stompin'Bones</h1>
+										<h1 class="h1" title="The Stompin'Bones">The Stompin'Bones</h1>
 									</div>
 									<!--<div class="home_link"><a href="#">Listen on Soundcloud</a></div>-->
 								</div>
@@ -52,7 +52,7 @@ require_once 'template/header.php';
 								<div class="home_content text-center">
 									<div class="home_subtitle"></div>
 									<div class="home_title">
-										<h1>The Stompin'Bones</h1>
+										<h1 class="h1" title="The Stompin'Bones">The Stompin'Bones</h1>
 									</div>
 									<!--<div class="home_link"><a href="#">Listen on Soundcloud</a></div>-->
 								</div>
@@ -75,7 +75,7 @@ require_once 'template/header.php';
 					<!-- Artist Image -->
 					<div class="col-lg-4 artist_image_col">
 						<div class="artist_image">
-							<img src="images/photo-de-contact2.png" alt="Illustration">
+							<img src="images/photo-de-contact2.png" alt="Photo du groupe en duo">
 						</div>
 					</div>
 
