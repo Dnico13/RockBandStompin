@@ -33,3 +33,7 @@ CREATE TABLE IF NOT EXISTS Evenement (
     Detail3 VARCHAR(255) NOT NULL,
     illustration VARCHAR(255) NOT NULL
 );
+
+ALTER Table User ADD  email VARCHAR(50) NOT NULL;
+INSERT INTO User (nom,prenom,role,password,email) VALUES("Duvignau","Hugo","admin","Nicolas","hudu@gmail.com");
+SELECT* FROM User WHERE email = "hudu@gmail.com"

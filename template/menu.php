@@ -12,7 +12,7 @@ require_once 'fonction/url.php';
         </div>
         <div class="log_reg">
             <ul class="d-flex flex-row align-items-start justify-content-start">
-                <li><a href="#" title="Login">Login</a></li>
+                <li><a href="admin.php" title="Login">Login</a></li>
                 <!--<li><a href="#">Register</a></li>-->
             </ul>
         </div>

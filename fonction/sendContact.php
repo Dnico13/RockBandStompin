@@ -28,6 +28,6 @@ function sendContact()
             echo " Une erreur s'est produite lors de l'envoi de votre message.";
         }
     }
-    header("location: index.php");
+   
 };
 ?>
