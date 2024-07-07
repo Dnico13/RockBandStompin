@@ -11,12 +11,12 @@ $Albums = getAlbums($pdo);
     <?php
     require_once './template/menu.php'
     ?>
-    <main>
+    <main class="container">
 
-        <div class="row">
-            <h3 class="text-center  text-primary  mt-3 mb-4">Descriptif des Albums </h3>
+        <div class="row mt-1">
+            <h3 class="text-center  text-primary  mt-1 mb-5">Descriptif des Albums </h3>
         </div>
-        <div class="row mt-5">
+        <div class="row">
 
             <?php
             foreach ($Albums as $cle => $Album) { ?>
