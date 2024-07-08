@@ -12,7 +12,7 @@ require_once 'template/menu.php';
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSRL6SWD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<main class="mainvideo">
+	<main class="mainvideo mainBis">
 
 		<div class="container containerVideo mt-5">
 			<div class="row">

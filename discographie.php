@@ -23,7 +23,7 @@ $Albums = getAlbums($pdo);
             <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="<?= $album['Photo']; ?>" class="d-block mx-lg-auto img-fluid" alt="Illustration de page de couverture de l album <?= $album['nom']; ?>" width="600" height="400" loading="lazy" title="Page de couverture de l'album <?= $album['nom']; ?>">
+                        <img src="<?= $album['Photo']; ?>" class="d-block mx-lg-auto img-fluid " alt="Illustration de page de couverture de l album <?= $album['nom']; ?>" width="600" height="400" loading="lazy" title="Page de couverture de l'album <?= $album['nom']; ?>">
                     </div>
                     <div class="col-lg-6">
                         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-danger text-left h2"><?= $album['nom']; ?></h1>
