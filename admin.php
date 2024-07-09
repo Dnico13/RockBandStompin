@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'template/header.php';
 require_once 'pdo.php';
 ?>
@@ -24,7 +25,7 @@ require_once 'pdo.php';
                         <label for="floatingPassword">Mot de passe</label>
                     </div>
 
-                    <button class="w-100 btn btn-lg btn-secondary" type="submit" >Connexion</button>
+                    <button class="w-100 btn btn-lg btn-secondary" type="submit" name="submit">Connexion</button>
 
 
                 </form>

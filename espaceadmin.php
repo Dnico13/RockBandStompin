@@ -6,8 +6,20 @@ require_once './fonction/readAlbum.php';
 require_once './fonction/readEvenements.php';
 $Albums = getAlbums($pdo);
 $concerts = getConcerts($pdo);
+if (!isset($_SESSION['role'])) {
+    header('location: http://www.google.fr');
+    exit;
+}
+    if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') { 
 ?>
+
+<!-- ouverture de limitation de session -->
+
 <link rel="stylesheet" href="styles/style.css">
+
+
+
+
 
 <body>
     <?php
@@ -134,8 +146,8 @@ $concerts = getConcerts($pdo);
 
 
                         <td class="text-center">
-                            <form action="" method="get">
-                                <input type="hidden" name="id" value="">
+                            <form action="./fonction/deleteAlbum.php" method="get">
+                                <input type="hidden" name="id" value="<?= $Album['id']; ?>">
                                 <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
                             </form>
 
@@ -191,8 +203,8 @@ $concerts = getConcerts($pdo);
                         </tr>
 
                         <td class="text-center">
-                            <form action="" method="get">
-                                <input type="hidden" name="id" value="">
+                            <form action="./fonction/deleteEvent.php" method="get">
+                                <input type="hidden" name="id" value="<?= $concert['id']; ?>">
                                 <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
                             </form>
 
@@ -214,9 +226,11 @@ $concerts = getConcerts($pdo);
     </main>
 </body>
 
+<?php }?>
 
 <?php
 require_once './template/js.php';
 require_once './template/footer.php';
 ?>
+
 </html>

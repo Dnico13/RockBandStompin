@@ -1,9 +1,11 @@
 <?php
+session_start();
 require_once '../pdo.php';
 
 
 
-if ($_SERVER['REQUEST_METHOD'] === "POST") {
+
+if (isset($_POST['submit'])) {
     try {
         $email = htmlspecialchars($_POST['email']);
         $password = htmlspecialchars($_POST['password']);
@@ -15,9 +17,9 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             $query->bindParam(":Email", $email);
             if ($query->execute()) {
                 $row = $query->fetch(PDO::FETCH_ASSOC);
-                var_dump($row);
-                //if (password_verify($password, $row['password'])) {
-                if ($password === $row['password']) {
+                
+                if (password_verify($password, $row['password'])) {
+               
 
                     $_SESSION['role'] = $row['role'];
                     setcookie("stompin", $_SESSION['role'], time() + 600, "/");
