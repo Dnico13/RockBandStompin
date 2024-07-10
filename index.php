@@ -222,7 +222,7 @@ require_once 'template/header.php';
 					</div>
 
 					<!-- Featured Album Player -->
-					<div class="col-md-6 featured_album_col">
+					<div class="col-md-6 featured_album_col mb-5">
 						<div class="featured_album_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="featured_album_player">
 								<div class="featured_album_title_bar d-flex flex-row align-items-center justify-content-start">

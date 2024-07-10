@@ -10,3 +10,7 @@ margin-top: 10%;
 .identification{
     font-size: 2rem;
 }
+.contour {
+    box-shadow: 0.4rem 0.4rem 0.4rem  gray;
+    
+}

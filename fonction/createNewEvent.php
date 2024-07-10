@@ -13,7 +13,7 @@ function createNewEvent($pdo)
 
 
         $tailleMax = 7000000;
-        $repertoire = "photoAffiche/";
+        $repertoire = "./photoAffiche/";
         $mimeautorises = ["image/jpeg", "image/png", "image/gif", "image/webp"];
         $allowedFileTypes = ["jpeg", "jpg", "png", "gif", "webp"];
         $imageok1 = true;

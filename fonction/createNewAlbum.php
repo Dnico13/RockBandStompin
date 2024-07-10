@@ -21,7 +21,7 @@ Function createNewAlbum($pdo){
         //$photo = htmlspecialchars($_POST['Photo']);
 
         $tailleMax= 7000000;
-        $repertoire = "photoAlbum/";
+        $repertoire = "./photoAlbum/";
         $mimeautorises = ["image/jpeg", "image/png", "image/gif", "image/webp"];
         $allowedFileTypes =["jpeg", "jpg", "png", "gif","webp"];
         $imageok1= true;
