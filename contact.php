@@ -58,17 +58,19 @@ require_once 'fonction/sendContact.php';
                             </form>
                         </div>
                     </div>
-<?php sendContact()?>
+                    <?php sendContact() ?>
                     <!-- Contact Info -->
+
+
                     <div class="col-lg-6 contact_col">
                         <div class="contact_info">
                             <div class="contact_title">Où nous trouver...</div>
                             <!--<div class="contact_text">
                                 <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
                             </div>-->
-                            <div class="contact_info_list">
+                            <div class="contact_info_list ">
                                 <ul>
-                                    <li class="d-flex flex-row align-items-start justify-content-start">
+                                    <li class="d-flex flex-row   align-items-start justify-content-start">
                                         <div>
                                             <div>Adresse</div>
                                         </div>
@@ -97,7 +99,7 @@ require_once 'fonction/sendContact.php';
                                 </ul>
                             </div>
                             <div class="social">
-                                <ul class="d-flex flex-row align-items-center justify-content-start">
+                                <ul class="d-flex flex-row align-items-start justify-content-start">
                                     <!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
                                     <li><a href="https://www.facebook.com/people/Stompinbones/100066665325532" target="_blank" title="Lien Facebook"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 3rem;"></i></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCXsiOpECrgq7XfnORE-qXzw" target="_blank" title="Lien YouTube"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 3rem;" title="lien YouTube"></i></a></li>

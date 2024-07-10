@@ -12,5 +12,5 @@ margin-top: 10%;
 }
 .contour {
     box-shadow: 0.4rem 0.4rem 0.4rem  gray;
-    
-}
+    border: 0.2rem solid white;
+}  
