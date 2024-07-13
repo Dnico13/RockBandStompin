@@ -11,7 +11,7 @@ createNewEvent($pdo);
     <?php
     require_once './template/menu_admin.php'
     ?>
- <main class="mainBis">
+ <main class="mainBis Espace">
         <!-- integration du formulaire de creation d un evenement -->
         <div class="container d-flex flex-column justify-content-center">
 
@@ -48,6 +48,7 @@ createNewEvent($pdo);
 
                     <div class="text-end mt-2">
                         <button type="submit" class="btn btn-secondary" name="Submit">Validation du formulaire</button>
+                        <a class="btn btn-secondary" href="espaceadmin.php">Annuler</a>
                     </div>
                 </form>
             </div>

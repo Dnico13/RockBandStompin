@@ -89,7 +89,7 @@ require_once 'fonction/url.php';
                     <ul class="d-flex flex-column align-items-start justify-content-start">
                         <li><a href="index.php">Accueil</a></li>
                         <li><a href="discographie.php">Discographie</a></li>
-                        <li><a href="about.php">Nos Evenements</a></li>
+                        <li><a href="evenements.php">Nos Evenements</a></li>
                         <li><a href="video.php">Nos Vidéos</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>

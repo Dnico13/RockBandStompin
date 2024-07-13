@@ -1,7 +1,7 @@
 <?php
 require_once 'template/header.php';
 ?>
-
+<link rel="stylesheet" href="styles/background.css">
 
 <body>
 
@@ -21,30 +21,32 @@ require_once 'template/header.php';
 		?>
 
 		<!-- Home -->
-
+<!--
 		<div class="home">
 			<div class="home_slider_container">
-
+	-->
 				<!-- Home Slider -->
-				<div class="owl-carousel owl-theme home_slider">
+	<!--			<div class="owl-carousel owl-theme home_slider">-->
 
 					<!-- Slide -->
-					<div class="owl-item">
-						<div class="background_image" style="background-image:url(images/LesDeuxMusiciens1bis.jpg);background-size: auto 110%;"></div>
+<!--					<div class="owl-item">
+						<div class="background_image" style="background-image:url(images/LesDeuxMusiciens.jpg);"></div>
 						<div class="home_container">
 							<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 								<div class="home_content text-center">
+	-->
 									<!--<div class="home_subtitle">New single release</div>-->
-									<div class="home_title">
-										<h1 class="h1" title="The Stompin'Bones">The Stompin'Bones</h1>
-									</div>
+		<!--							<div class="home_title">
+										<h1  title="The Stompin'Bones">The Stompin'Bones</h1>
+									</div> -->
 									<!--<div class="home_link"><a href="#">Listen on Soundcloud</a></div>-->
-								</div>
+<!--								</div>
 							</div>
 						</div>
 					</div>
-
+	-->
 					<!-- Slide -->
+<!--
 					<div class="owl-item">
 						<div class="background_image" style="background-image:url(images/LesDeuxMusiciens2.jpg);background-size: auto 110%;"></div>
 						<div class="home_container">
@@ -54,8 +56,9 @@ require_once 'template/header.php';
 									<div class="home_title">
 										<h1 class="h1" title="The Stompin'Bones">The Stompin'Bones</h1>
 									</div>
+	-->
 									<!--<div class="home_link"><a href="#">Listen on Soundcloud</a></div>-->
-								</div>
+		<!--						</div>
 							</div>
 						</div>
 					</div>
@@ -65,7 +68,7 @@ require_once 'template/header.php';
 				</div>
 			</div>
 		</div>
-
+	-->
 		<!-- Artist -->
 
 		<div class="artist mt-5">
@@ -84,7 +87,7 @@ require_once 'template/header.php';
 						<div class="artist_content">
 							<div class="section_title_container">
 								<!--<div class="section_subtitle">Events</div>-->
-								<div class="section_title">
+								<div class="section_title text-secondary">
 									<h1>The Stompin'Bones</h1>
 								</div>
 							</div>
@@ -210,19 +213,19 @@ require_once 'template/header.php';
 						</div>
 					</div>
 				</div>
-				<div class="row featured_row row-lg-eq-height">
+				<div class="row featured_row row-lg-eq-height mt-1">
 
 					<!-- Featured Album Image -->
-					<div class="col-md-6">
+					<div class="col-md-6 EspaceBack">
 						<div class="featured_album_image">
 							<div class="image_overlay"></div>
-							<div class="background_image" style="background-image:url(images/photoAlbum.jpg); background-size: 85% auto;"></div>
-							<!-- <img src="images/featured_album.jpg" alt=""> -->
+							<div class="background_image " style="background-image:url(images/photoAlbum.jpg); background-size: 85% auto;"></div>
+							<!-- <img src="images/photoAlbum.jpg"  class="img-fluid"alt="">-->
 						</div>
 					</div>
 
 					<!-- Featured Album Player -->
-					<div class="col-md-6 featured_album_col mb-5">
+					<div class="col-md-6 featured_album_col mb-5 ">
 						<div class="featured_album_player_container d-flex flex-column align-items-start justify-content-center">
 							<div class="featured_album_player">
 								<div class="featured_album_title_bar d-flex flex-row align-items-center justify-content-start">

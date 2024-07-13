@@ -9,7 +9,7 @@
 	$url_final = basename($url_end);
 	?>
 	<?php
-var_dump($url_final);
+
 
 ?>
 	<title>Les Stompin'Bones: <?= $title[$url_final];?></title>
@@ -30,6 +30,16 @@ var_dump($url_final);
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 	<link rel="stylesheet" href="styles/index.css" type="text/css">
 	<link rel="stylesheet" href="styles/about1.css">
+
+<!--rajout -->
+<!--<link rel="stylesheet"  type="text/css" href="styles/elements.css">
+<link rel="stylesheet"  type="text/css" href="styles/elements_responsive.css">
+
+ fin rajout -->
+
+
+
+
 
 	<!-- Google Tag Manager -->
 	<script>

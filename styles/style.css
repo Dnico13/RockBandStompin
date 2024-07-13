@@ -6,6 +6,8 @@ sur les pages evenements.php et discographie.php* au niveau du header*/
 
 .mainBis {
 margin-top: 10%;
+
+
 }
 .identification{
     font-size: 2rem;
@@ -14,3 +16,10 @@ margin-top: 10%;
     box-shadow: 0.4rem 0.4rem 0.4rem  gray;
     border: 0.2rem solid white;
 }  
+
+.Espace{
+    margin: 10%;
+}
+.Esoace1{
+    margin-top: 10%;
+}

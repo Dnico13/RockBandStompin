@@ -4,6 +4,7 @@ require_once 'fonction/sendContact.php';
 ?>
 
 <link rel="stylesheet" href="styles/contact.css">
+<link rel="stylesheet" href="styles/contact_responsive.css">
 
 
 
@@ -43,7 +44,7 @@ require_once 'fonction/sendContact.php';
                     <!-- Contact Form -->
                     <div class="col-lg-6">
                         <div class="contact_form_container">
-                            <div class="contact_title">Envoyer un message...</div>
+                            <div class="contact_title">Laissez nous un message...</div>
                             <form action="" method="post" class="contact_form" id="contact_form">
 
                                 <input type="text" class="contact_input" placeholder="Nom" required="required" name="nom">
@@ -64,7 +65,7 @@ require_once 'fonction/sendContact.php';
 
                     <div class="col-lg-6 contact_col">
                         <div class="contact_info">
-                            <div class="contact_title">Où nous trouver...</div>
+                            <div class="contact_title">Ou contactez nous...</div>
                             <!--<div class="contact_text">
                                 <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
                             </div>-->

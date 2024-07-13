@@ -5,6 +5,7 @@ require_once 'template/header.php';
 require_once 'template/menu.php';
 
 ?>
+<link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@ require_once 'template/menu.php';
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSRL6SWD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<main class="mainvideo mainBis">
+	<main class="mainvideo mainBis Espace1">
 
 		<div class="container containerVideo mt-5">
 			<div class="row">

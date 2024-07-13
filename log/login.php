@@ -22,6 +22,7 @@ if (isset($_POST['submit'])) {
                
 
                     $_SESSION['role'] = $row['role'];
+                    $_SESSION['prenom'] = $row['prenom'];
                     setcookie("stompin", $_SESSION['role'], time() + 600, "/");
 
 

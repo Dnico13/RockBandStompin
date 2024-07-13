@@ -25,18 +25,22 @@ if (!isset($_SESSION['role'])) {
     <?php
     require_once './template/menu_admin.php'
     ?>
-    <main class="container mainBis">
+    <main class="container mainBis ">
         <!-- Debut partie album -->
-
-        <div class="row mt-1">
-            <h3 class="text-primary  mt-1 mb-5">Descriptif des Albums </h3>
+        <div class="text-center  Espace">
+            <p class="text-secondary h2">Bonjour <span class="text-danger"> <?= $_SESSION['prenom'] ?></span>,</p>
+            <p class="text-secondary h2"> Bienvenu dans ton espace d'administration</p> 
+            <h3 class="text-primary  mt-5 mb-5">Descriptif des Albums </h3>
         </div>
+
+
+       
         <div>
             <a href="./createAlbum.php" class="btn btn-secondary mb-3">Creation nouvel Album</a>
         </div>
 
 
-        <div class="row">
+        <div class="row ">
 
             <?php
             foreach ($Albums as $cle => $Album) { ?>
@@ -160,7 +164,7 @@ if (!isset($_SESSION['role'])) {
         <!-- fin partie album-->
 
         <!-- Partie Evenements -->
-        <div class="row mt-1">
+        <div class="row mt-1 justify-content-center align-item-center ">
             <h3 class="text-primary  mt-1 mb-5">Descriptif des Animations </h3>
         </div>
 

@@ -11,7 +11,7 @@ createNewAlbum($pdo);
     <?php
     require_once './template/menu_admin.php'
     ?>
- <main class="mainBis">
+ <main class="mainBis Espace">
         <!-- integration du formulaire de creation de realisation du texte -->
         <div class="container d-flex flex-column justify-content-center">
 
@@ -98,6 +98,7 @@ createNewAlbum($pdo);
 
                     <div class="text-end mt-2">
                         <button type="submit" class="btn btn-secondary" name="Submit">Validation du formulaire</button>
+                        <a class="btn btn-secondary" href="espaceadmin.php">Annuler</a>
                     </div>
                 </form>
             </div>
