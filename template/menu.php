@@ -7,7 +7,7 @@ require_once 'fonction/url.php';
     <div class="header_content d-flex flex-row align-items-center justify-content-center">
         <div class="logo">
             <a href="index.php">
-                <img src="images/logo.jpg" class="logo" alt="Logo des Stompin'Bones" title="Logo des Stompin'Bones">
+                <img src="images/logo.webp" class="logo" alt="Logo des Stompin'Bones" title="Logo des Stompin'Bones">
             </a>
         </div>
         <div class="log_reg">

@@ -11,7 +11,7 @@ createNewAlbum($pdo);
     <?php
     require_once './template/menu_admin.php'
     ?>
- <main class="mainBis Espace">
+ <main class="mainBis Espace1">
         <!-- integration du formulaire de creation de realisation du texte -->
         <div class="container d-flex flex-column justify-content-center">
 

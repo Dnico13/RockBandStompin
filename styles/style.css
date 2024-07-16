@@ -14,12 +14,28 @@ margin-top: 10%;
 }
 .contour {
     box-shadow: 0.4rem 0.4rem 0.4rem  gray;
-    border: 0.2rem solid white;
+    border: 0.7rem groove white;
 }  
 
 .Espace{
     margin: 10%;
 }
-.Esoace1{
-    margin-top: 10%;
+
+.Espace1{
+    margin-top: 15%;
 }
+@media only screen and (min-width: 622px) and (max-width: 968px)
+{
+    .Espace1{
+        margin-top: 31%;
+    }
+	
+}
+@media only screen and  (max-width: 621px)
+{
+    .Espace1{
+        margin-top: 35%;
+    }
+	
+}
+

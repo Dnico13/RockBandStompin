@@ -11,9 +11,9 @@ createNewEvent($pdo);
     <?php
     require_once './template/menu_admin.php'
     ?>
- <main class="mainBis Espace">
+ <main class="mainBis Espace1 ">
         <!-- integration du formulaire de creation d un evenement -->
-        <div class="container d-flex flex-column justify-content-center">
+        <div class="container d-flex flex-column justify-content-center ">
 
             <div class="row">
 

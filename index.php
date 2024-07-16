@@ -2,7 +2,7 @@
 require_once 'template/header.php';
 ?>
 <link rel="stylesheet" href="styles/background.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <body>
 
 	<!-- Google Tag Manager (noscript) -->
@@ -87,7 +87,7 @@ require_once 'template/header.php';
 						<div class="artist_content">
 							<div class="section_title_container">
 								<!--<div class="section_subtitle">Events</div>-->
-								<div class="section_title text-secondary">
+								<div class="section_title text-secondary animate__animated animate__backInDown">
 									<h1>The Stompin'Bones</h1>
 								</div>
 							</div>
@@ -147,7 +147,7 @@ require_once 'template/header.php';
 													<div class="jp-title" aria-label="title">&nbsp;</div>
 												</div>
 												<div class="jp-controls-holder ml-auto">
-													<button class="jp-play" tabindex="0"></button>
+													<button class="jp-play" tabindex="0" title="Lancement de l'écoute"></button>
 												</div>
 											</div>
 											<div class="player_controls">
@@ -167,7 +167,7 @@ require_once 'template/header.php';
 														</div>
 													</div>
 													<div class="jp-volume-controls d-flex flex-row align-items-center justify-content-start ml-auto">
-														<button class="jp-mute" tabindex="0"></button>
+														<button class="jp-mute" tabindex="0" title="Mise en place de la mute."></button>
 														<div class="jp-volume-bar">
 															<div class="jp-volume-bar-value"></div>
 														</div>
@@ -219,7 +219,7 @@ require_once 'template/header.php';
 					<div class="col-md-6 EspaceBack">
 						<div class="featured_album_image">
 							<div class="image_overlay"></div>
-							<div class="background_image " style="background-image:url(images/photoAlbum.jpg); background-size: 85% auto;"></div>
+							<div class="background_image " style="background-image:url(images/photoAlbum.webp); background-size: 85% auto;"></div>
 							<!-- <img src="images/photoAlbum.jpg"  class="img-fluid"alt="">-->
 						</div>
 					</div>
@@ -249,7 +249,7 @@ require_once 'template/header.php';
 												<div class="jp-title" aria-label="title">&nbsp;</div>
 											</div>
 											<div class="jp-controls-holder ml-auto">
-												<button class="jp-play" tabindex="0"></button>
+												<button class="jp-play" tabindex="0" title="Lancement de l'écoute"></button>
 											</div>
 										</div>
 										<div class="player_controls">
@@ -269,7 +269,7 @@ require_once 'template/header.php';
 													</div>
 												</div>
 												<div class="jp-volume-controls d-flex flex-row align-items-center justify-content-start ml-auto">
-													<button class="jp-mute" tabindex="0"></button>
+													<button class="jp-mute" tabindex="0" title="bouton de Mute"></button>
 													<div class="jp-volume-bar">
 														<div class="jp-volume-bar-value"></div>
 													</div>
