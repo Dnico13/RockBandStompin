@@ -75,7 +75,7 @@ require_once 'fonction/sendContact.php';
                                         <div>
                                             <div>Adresse</div>
                                         </div>
-                                        <div>
+                                        <div class="text-secondary">
                                             Association Rockin out<br>
                                             11 rue Berlioz<br>
                                             64000 PAU
@@ -86,7 +86,7 @@ require_once 'fonction/sendContact.php';
                                             <div>Téléphone</div>
                                         </div>
                                         <div>
-                                            <a href="telto: +33628494386" title="+33 628 494 386">+33 628 494 386</a>
+                                            <a href="telto: +33628494386" title=" Apeller le +33 628 494 386" class="text-secondary">+33 628 494 386</a>
                                         </div>
                                     </li>
                                     <li class="d-flex flex-row align-items-start justify-content-start">
@@ -94,7 +94,7 @@ require_once 'fonction/sendContact.php';
                                             <div>E-mail</div>
                                         </div>
                                         <div>
-                                            <a href="mailto: contact@stompin-bones.fr" title="Email de contact">contact@stompin-bones.fr</a>
+                                            <a href="mailto: contact@stompin-bones.fr" title=" Envoyer un Email à contact@stompin-bones.fr " class="text-secondary">contact@stompin-bones.fr</a>
                                         </div>
                                     </li>
                                 </ul>

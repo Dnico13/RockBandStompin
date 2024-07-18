@@ -15,6 +15,8 @@
 	<title>Les Stompin'Bones: <?= $title[$url_final];?></title>
 	
 	<meta charset="utf-8">
+
+	<meta name="author" content="NDev0223.fr"
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Website des  Stompin'Bones: groupe de rock de la region Paloise.">
 	<meta name="keyword" content="Groupe de rock, pau, contrebasse, guitare, Crazy Blues, Rockabilly, Psychobilly, sud-ouest, bayonne,">

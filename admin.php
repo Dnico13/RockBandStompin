@@ -24,10 +24,17 @@ require_once 'pdo.php';
                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
                         <label for="floatingPassword">Mot de passe</label>
                     </div>
+                    <div class="d-flex flex-row justify-content-evenly">
 
-                    <button class="w-100 btn btn-lg btn-secondary" type="submit" name="submit">Connexion</button>
-
-
+                        <div class="col-6">
+                            
+                            <button class="w-100 btn btn-lg btn-secondary" type="submit" name="submit">Connexion</button>
+                        </div> 
+                        <div class="col-6">
+                            <button class="w-100 btn btn-lg btn-secondary"><a href="index.php" class="text-light">Retour</a></button>
+                            
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
