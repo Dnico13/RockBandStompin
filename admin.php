@@ -31,7 +31,7 @@ require_once 'pdo.php';
                             <button class="w-100 btn btn-lg btn-secondary" type="submit" name="submit">Connexion</button>
                         </div> 
                         <div class="col-6">
-                            <button class="w-100 btn btn-lg btn-secondary"><a href="index.php" class="text-light">Retour</a></button>
+                            <a class="w-100 btn btn-lg btn-secondary" href="index.php" class="text-light">Retour</a>
                             
                         </div>
                     </div>

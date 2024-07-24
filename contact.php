@@ -50,7 +50,7 @@ require_once 'fonction/sendContact.php';
                                 <input type="text" class="contact_input" placeholder="Nom" required="required" name="nom">
                                 <input type="text" class="contact_input" placeholder="Prenom" required="required" name="prenom">
                                 <input type="email" class="contact_input" placeholder="E-mail" required="required" name="email">
-                                <input type="tel" class="contact_input" placeholder="Numéro de téléphone" required="required" name="phone">
+                                <input type="tel" class="contact_input" placeholder="Numéro de téléphone" required="required" name="phone" pattern="[0-9]{10}" >
                                 <input type="text" class="contact_input" placeholder="Objet" required="required" name="detail">
                                 <input type="hidden" name="objet" value="contact@stompin-bones.fr">
                                 <textarea class="contact_input contact_textarea" placeholder="Votre Message" required="required" name="message"></textarea>
