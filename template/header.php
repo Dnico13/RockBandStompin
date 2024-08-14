@@ -8,15 +8,18 @@
 	$url_end = $_SERVER['REQUEST_URI'];
 	$url_final = basename($url_end);
 	?>
-	<?php
 
+	<title>Les Stompin'Bones:
+		<?php if (isset($title[$url_final])) {
+			echo $title[$url_final];
+		} else {
+			echo "Groupe de Crazy Blues de la région paloise.";
+		} ?>
+	</title>
 
-?>
-	<title>Les Stompin'Bones: <?= $title[$url_final];?></title>
-	
 	<meta charset="utf-8">
 
-	<meta name="author" content="NDev0223.fr"
+	<meta name="author" content="NDev0223.fr">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Website des  Stompin'Bones: groupe de rock de la region Paloise.">
 	<meta name="keyword" content="Groupe de rock, pau, contrebasse, guitare, Crazy Blues, Rockabilly, Psychobilly, sud-ouest, bayonne,">
@@ -33,8 +36,8 @@
 	<link rel="stylesheet" href="styles/index.css" type="text/css">
 	<link rel="stylesheet" href="styles/about1.css">
 
-<!--rajout -->
-<!--<link rel="stylesheet"  type="text/css" href="styles/elements.css">
+	<!--rajout -->
+	<!--<link rel="stylesheet"  type="text/css" href="styles/elements.css">
 <link rel="stylesheet"  type="text/css" href="styles/elements_responsive.css">
 
  fin rajout -->
@@ -73,4 +76,4 @@
 
 		gtag('config', 'G-TPS74VPS36');
 	</script>
-	</head>
+</head>
