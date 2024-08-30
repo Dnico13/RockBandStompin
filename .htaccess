@@ -1,3 +1,10 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+//RewriteRule ^index.php$ /accueil [L,R=301]
+//RewriteRule ^discographie.php$ /discographie [L,R=301]
+//RewriteRule ^evenements.php$ /concerts [L,R=301]
+//RewriteRule ^video.php$ /videos [L,R=301]
+//RewriteRule ^contact.php$ /contact [L,R=301]
+//RewriteRule ^vente.php$ /vente [L,R=301]

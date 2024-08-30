@@ -7,7 +7,10 @@ require_once 'pdo.php';
 
 
 <body>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC7PB77R"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
 
 
@@ -27,12 +30,12 @@ require_once 'pdo.php';
                     <div class="d-flex flex-row justify-content-evenly">
 
                         <div class="col-6">
-                            
+
                             <button class="w-100 btn btn-lg btn-secondary" type="submit" name="submit">Connexion</button>
-                        </div> 
+                        </div>
                         <div class="col-6">
                             <a class="w-100 btn btn-lg btn-secondary" href="index.php" class="text-light">Retour</a>
-                            
+
                         </div>
                     </div>
                 </form>

@@ -22,7 +22,7 @@
 	<meta name="author" content="NDev0223.fr">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Website des  Stompin'Bones: groupe de rock de la region Paloise.">
-	<meta name="keyword" content="Groupe de rock, pau, contrebasse, guitare, Crazy Blues, Rockabilly, Psychobilly, sud-ouest, bayonne,">
+	<meta name="keyword" content="Groupe de rock, pau, contrebasse, guitare, Crazy Blues, Rockabilly, homemade sounds, ramblin'blues, rockin'blue, Psychobilly, sud-ouest, bayonne,">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="icon" type="image/x-icon" href="logo2.ico">
@@ -41,10 +41,7 @@
 <link rel="stylesheet"  type="text/css" href="styles/elements_responsive.css">
 
  fin rajout -->
-
-
-
-
+	<!-- google analytic-->
 
 	<!-- Google Tag Manager -->
 	<script>
@@ -61,11 +58,11 @@
 			j.src =
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-TSRL6SWD');
+		})(window, document, 'script', 'dataLayer', 'GTM-KC7PB77R');
 	</script>
 	<!-- End Google Tag Manager -->
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TPS74VPS36"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DVJ9QH4ZKG"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -74,6 +71,11 @@
 		}
 		gtag('js', new Date());
 
-		gtag('config', 'G-TPS74VPS36');
+		gtag('config', 'G-DVJ9QH4ZKG');
 	</script>
+
+
+
+
+
 </head>
