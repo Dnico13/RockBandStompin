@@ -1,7 +1,7 @@
 <?php
 require_once 'template/header.php';
 require_once 'pdo.php';
-require_once './fonction/readPistes.php';
+require_once './fonction/readPiste.php';
 $Pistes = getPistes($pdo);
 ?>
 <link rel="stylesheet" href="styles/style.css">
@@ -12,26 +12,41 @@ $Pistes = getPistes($pdo);
     <?php
     require_once 'template/menu.php';
     ?>
-    <main class="mainBis">
-        <?php
+    <main class="mainBis Espace1 ">
 
-        foreach ($Pistes as $key => $piste) { ?>
+        <div class="container w-100 w-md-50  text-justify text-md-center presentation mb-5">
+            
+			<p class="h4">Téléchargez nos morceaux et emportez notre musique partout avec vous. Profitez de nos créations en haute qualité et soutenez notre travail en ajoutant nos chansons à votre collection personnelle.<br></p>
+			<p class="h4">
+                <br>
+            Cliquez sur les liens ci-dessous pour accéder à vos titres préférés.
+			</p>
+		</div>
+            
+
+        <div class="container w-100 d-flex justify-content-center align-items-center flex-wrap">
+            <div class="row d-flex justify-content-center w-75">
+                <?php
+
+                foreach ($Pistes as $key => $piste) { ?>
 
 
 
+                    <div class="col-12 mb-5 d-flex justify-content-center">
 
-            <div class="container col-xxl-8 px-4 py-5">
-            <?php
-            echo $piste['balise']
-            ?>
 
+                        <?php
+                        echo htmlspecialchars_decode($piste['balise'])
+                        ?>
+
+                    </div>
+
+
+
+                <?php
+                } ?>
             </div>
-            
-            
-        <?php
-        } ?>
-
-
+        </div>
     </main>
 
 

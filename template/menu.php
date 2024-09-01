@@ -49,6 +49,12 @@ require_once 'fonction/url.php';
 
                     <a href="video.php" title="Nos Vidéos">Nos Vidéos</a>
                 </li>
+                <li class="<?php if ($url_base === "vente.php") {
+                                echo "active";
+                            } ?>">
+
+                    <a href="vente.php" title="Nos Vidéos">Téléchargement</a>
+                </li>
                 <li class="<?php if ($url_base === "contact.php") {
                                 echo "active";
                             } ?>">
@@ -91,6 +97,7 @@ require_once 'fonction/url.php';
                         <li><a href="discographie.php">Discographie</a></li>
                         <li><a href="evenements.php">Nos Evenements</a></li>
                         <li><a href="video.php">Nos Vidéos</a></li>
+                        <li><a href="vente.php">Téléchargement</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>

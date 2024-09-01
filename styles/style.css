@@ -1,7 +1,9 @@
 /* Cette page est destine a rattrappe le pb de marge sur l affichage du main 
 sur les pages evenements.php et discographie.php* au niveau du header*/
 
-
+.mainBis2{
+    margin-left: auto;
+}
 
 
 .mainBis {
@@ -37,5 +39,8 @@ margin-top: 10%;
         margin-top: 35%;
     }
 	
+}
+.presentation{
+    font-size: 16px;
 }
 

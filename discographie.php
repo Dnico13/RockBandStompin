@@ -12,8 +12,16 @@ $Albums = getAlbums($pdo);
     <?php
     require_once 'template/menu.php';
     ?>
-    <main class="mainBis">
+    <main class="mainBis Espace1">
+
+        <div class=" container w-100 w-md-50  text-justify text-md-center presentation">
+            <p class="h4">Découvrez notre univers musical à travers cette discographie, où chaque morceau raconte une histoire unique et passionnante. <br></p>
+            <p class="h4">
+                Plongez dans nos créations et laissez-vous emporter par les rythmes et les mélodies qui définissent notre parcours artistique.
+            </p>
+        </div>
         <?php
+
 
         foreach ($Albums as $key => $album) { ?>
 
@@ -26,7 +34,7 @@ $Albums = getAlbums($pdo);
                         <img src="<?= $album['Photo']; ?>" class="d-block mx-lg-auto ms-2  img-fluid contour" alt="Illustration de page de couverture de l'album <?= $album['nom']; ?>" width="600" height="400" loading="lazy" title="Page de couverture de l'album <?= $album['nom']; ?>">
                     </div>
                     <div class="col-lg-6 col-sm-12  pt-5">
-                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-danger text-left h2"><?= $album['nom']; ?></h1>
+                        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-danger text-left h2"><?= $album['nom']; ?></h2>
                         <p class="lead">
                             Titre des morceaux:
                         <ul class="text-left text-secondary h4">

@@ -12,8 +12,15 @@ $Concerts = getConcerts($pdo);
     <?php
     require_once 'template/menu.php';
     ?>
-    <main class="mainBis">
+    <main class="mainBis Espace1">
 
+        <div class=" container w-100 w-md-50  text-justify text-md-center presentation ">
+            <p class="h5">Rejoignez-nous pour des moments inoubliables en live !<br></p>
+            <p class="h5"> Consultez notre calendrier de concerts pour découvrir où et quand nous jouerons près de chez vous.<br></p>
+            <p class="h5">
+                Préparez-vous à vivre des expériences musicales uniques et à partager des souvenirs mémorables avec nous.
+            </p>
+        </div>
 
         <?php
         foreach ($Concerts as $key => $Concert) { ?>

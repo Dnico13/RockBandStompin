@@ -1,9 +1,10 @@
 <?php
-
+require_once 'pdo.php';
 require_once 'template/header.php';
+require_once './fonction/readVideo.php';
+$Videos = getVideo($pdo);
 
 require_once 'template/menu.php';
-
 ?>
 <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -16,33 +17,29 @@ require_once 'template/menu.php';
 	<!-- End Google Tag Manager (noscript) -->
 	<main class="mainvideo mainBis Espace1">
 
-		<div class="container containerVideo mt-5">
-			<div class="row">
-				<div class="col">
-					<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/1kAeItYNl6k?si=s1wMMZICC681fLng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col">
-					<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/sylryPi5jpU?si=a0P0I7XnUI9ffbfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col">
-					<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/s_6mYwxL4ZY?si=pcRnO8VSclS2XTEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-			</div>
+		<div class="container w-100 w-md-50  text-justify text-md-center presentation">
+			<p class="h4">Plongez dans notre univers visuel avec notre collection de vidéos YouTube. Découvrez nos performances live, nos clips musicaux et des moments exclusifs en coulisses.<br></p>
+			<p class="h4">
+				Abonnez-vous et ne manquez aucune de nos nouvelles vidéos pour rester connecté avec notre aventure musicale.
+			</p>
 		</div>
 
-		<div class="container containerVideo">
+		<div class="container containerVideo mt-5">
 			<div class="row">
-				<div class="col">
-					<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/La9v-iNvzBI?si=OgcHC4aFhO8Xc3IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col">
-					<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/v5j-IBQYpj0?si=IxMSQPcp9X7y0OW-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col">
-					<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/2WWzHACCs2Q?si=OBvd_hF6aCwYL7rj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-			</div>
+				<?php
+				foreach ($Videos as $key => $video) { ?>
 
+					<div class="col">
+						<?php
+						$balise = htmlspecialchars_decode($video['balise_video']);
+						$balise_class = str_replace('<iframe', '<iframe class="video', $balise);
+						echo $balise_class;
+
+						?>
+					</div>
+				<?php } ?>
+			</div>
+		</div>
 
 
 	</main>

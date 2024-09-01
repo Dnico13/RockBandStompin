@@ -4,8 +4,13 @@ require_once 'template/header.php';
 require_once 'pdo.php';
 require_once './fonction/readAlbum.php';
 require_once './fonction/readEvenements.php';
+require_once './fonction/readPiste.php';
+require_once './fonction/readVideo.php';
+
+$Pistes = getPistes($pdo);
 $Albums = getAlbums($pdo);
 $concerts = getConcerts($pdo);
+$Videos = getVideo($pdo);
 if (!isset($_SESSION['role'])) {
     header('location: http://www.google.fr');
     exit;
@@ -219,11 +224,101 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
                     </table>
             </div>
 
-
-
-
-
             <!-- Fin Evenements -->
+            <!-- Debut integration de gestion des pistes -->
+            <div class="row mt-1 justify-content-center align-item-center ">
+                <h3 class="text-primary  mt-1 mb-5">Ensemble des Pistes BandCamp </h3>
+            </div>
+
+            <div>
+                <a href="./createPiste.php" class="btn btn-secondary mb-3">Creation d'une nouvelle Piste</a>
+            </div>
+            <div class="row">
+
+                <?php
+                foreach ($Pistes as $cle => $Piste) { ?>
+                    <table class="table table-striped table-bordered backgroungarray text-center mb-5">
+                        <thead class="text-primary">
+                            <tr>
+                                <th scope="col-4" class="m-2">Titre de la Piste </th>
+                                <th scope="col-8"><span class="text-danger h2"> <?= $Piste['titre']; ?></span></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th scope="row" class="text-secondary">Piste BandCamp</th>
+                                <td><?= htmlspecialchars_decode($Piste['balise']); ?> </td>
+                            </tr>
+
+                            <td class="text-center">
+                                <form action="./fonction/deletePiste.php" method="get">
+                                    <input type="hidden" name="id" value="<?= $Piste['id_piste']; ?>">
+                                    <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
+                                </form>
+
+                            </td>
+                            </tr>
+                        <?php } ?>
+                        </tbody>
+                    </table>
+            </div>
+
+
+
+            <!-- fin de l integration des Pistes -->
+            <!-- debut integration des videos -->
+            <div class="row mt-1 justify-content-center align-item-center ">
+                <h3 class="text-primary  mt-1 mb-5">Ensemble des Videos Youtube</h3>
+            </div>
+            <div>
+                <a href="./createVideo.php" class="btn btn-secondary mb-3">Integration Video </a>
+            </div>
+            <div class="row">
+
+                <?php
+                foreach ($Videos as $cle => $Video) { ?>
+                    <table class="table table-striped table-bordered backgroungarray text-center mb-5">
+                        <thead class="text-primary">
+                            <tr>
+                                <th scope="col-4" class="m-2">Intitule </th>
+                                <th scope="col-8"><span class="text-danger h2"> </span></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th scope="row" class="text-secondary">Visuel Video</th>
+                                <td><?php
+
+                                    $balise = htmlspecialchars_decode($Video['balise_video']);
+                                    $balise_class = str_replace('<iframe', '<iframe class="video', $balise);
+                                    echo $balise_class;
+
+
+                                    ?>
+                                </td>
+                            </tr>
+
+                            <td class="text-center">
+                                <form action="./fonction/deleteVideo.php" method="get">
+                                    <input type="hidden" name="id" value="<?= $Video['id_video']; ?>">
+                                    <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
+                                </form>
+
+                            </td>
+                            </tr>
+                        <?php } ?>
+                        </tbody>
+                    </table>
+            </div>
+
+
+            <!-- fin de l'integration des videos -->
+
+
 
 
 
