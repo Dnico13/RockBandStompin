@@ -12,12 +12,12 @@ $Pistes = getPistes($pdo);
     <?php
     require_once 'template/menu.php';
     ?>
-    <main class="mainBis Espace1 ">
+    <main class="mainBis">
 
-        <div class="container w-100 w-md-50  text-justify text-md-center presentation mb-5">
+        <div class="container w-100 w-md-50  Espace1  text-justify text-md-center presentation mb-5">
             
-			<p class="h4">Téléchargez nos morceaux et emportez notre musique partout avec vous. Profitez de nos créations en haute qualité et soutenez notre travail en ajoutant nos chansons à votre collection personnelle.<br></p>
-			<p class="h4">
+			<p class="h5">Téléchargez nos morceaux et emportez notre musique partout avec vous. Profitez de nos créations en haute qualité et soutenez notre travail en ajoutant nos chansons à votre collection personnelle.<br></p>
+			<p class="h5">
                 <br>
             Cliquez sur les liens ci-dessous pour accéder à vos titres préférés.
 			</p>

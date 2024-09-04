@@ -24,12 +24,12 @@ margin-top: 10%;
 }
 
 .Espace1{
-    margin-top: 15%;
+   margin-top: 0%;
 }
 @media only screen and (min-width: 622px) and (max-width: 968px)
 {
     .Espace1{
-        margin-top: 31%;
+        margin-top: 15%;
     }
 	
 }

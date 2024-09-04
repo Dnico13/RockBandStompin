@@ -15,11 +15,11 @@ require_once 'template/menu.php';
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC7PB77R"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<main class="mainvideo mainBis Espace1">
+	<main class="mainvideo mainBis ">
 
-		<div class="container w-100 w-md-50  text-justify text-md-center presentation">
-			<p class="h4">Plongez dans notre univers visuel avec notre collection de vidéos YouTube. Découvrez nos performances live, nos clips musicaux et des moments exclusifs en coulisses.<br></p>
-			<p class="h4">
+		<div class="container w-100 w-md-50 Espace1 text-justify text-md-center presentation">
+			<p class="h5">Plongez dans notre univers visuel avec notre collection de vidéos YouTube. Découvrez nos performances live, nos clips musicaux et des moments exclusifs en coulisses.<br></p>
+			<p class="h5">
 				Abonnez-vous et ne manquez aucune de nos nouvelles vidéos pour rester connecté avec notre aventure musicale.
 			</p>
 		</div>

@@ -12,11 +12,13 @@ $Concerts = getConcerts($pdo);
     <?php
     require_once 'template/menu.php';
     ?>
-    <main class="mainBis Espace1">
+    <main class="mainBis">
 
-        <div class=" container w-100 w-md-50  text-justify text-md-center presentation ">
-            <p class="h5">Rejoignez-nous pour des moments inoubliables en live !<br></p>
-            <p class="h5"> Consultez notre calendrier de concerts pour découvrir où et quand nous jouerons près de chez vous.<br></p>
+        <div class=" container w-100 w-md-50 Espace1 text-justify text-md-center presentation ">
+            <p class="h5">Rejoignez-nous pour des moments inoubliables en live !</p>
+            <br>
+            <p class="h5"> Consultez notre calendrier de concerts pour découvrir où et quand nous jouerons près de chez vous.</p>
+            <br>
             <p class="h5">
                 Préparez-vous à vivre des expériences musicales uniques et à partager des souvenirs mémorables avec nous.
             </p>
@@ -26,16 +28,17 @@ $Concerts = getConcerts($pdo);
         foreach ($Concerts as $key => $Concert) { ?>
 
 
-            <div class="container col-xxl-8 px-4 py-5">
+            <div class="container col-xxl-8 px-4  py-auto">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-12col-sm-10 col-lg-6 m-auto">
-                        <img src="<?= $Concert['illustration']; ?>" class="d-block mx-lg-auto img-fluid contour" alt="Affiche de l'évenement <?= $Concert['event_nom']; ?>" width="600" height="400" loading="lazy" title="Affiche de  <?= $Concert['event_nom']; ?>">
+                    <div class="col-12  col-lg-6 py-auto">
+                        <img src="<?= $Concert['illustration']; ?>" class="d-block mx-auto img-fluid contour" alt="Affiche de l'évenement <?= $Concert['event_nom']; ?>" width="400" height="auto" loading="lazy" title="Affiche de  <?= $Concert['event_nom']; ?>">
                     </div>
-                    <div class="col-lg-6 col-sm-12 pt-5">
-                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-danger text-left  h2"><?= $Concert['event_nom']; ?></h1>
-                        <p class="lead">
+                    <div class=" col-12 col-lg-6 pt-5">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-danger text-center text-lg-left  h2"><?= $Concert['event_nom']; ?></h1>
+                        <p class="lead text-center text-lg-left">
                             Lieu :<?= $Concert['Lieu']; ?>
-                        <ul class="text-left text-secondary h4">
+                        </p>
+                        <ul class="text-center text-lg-left text-secondary h4">
                             <li><?= $Concert["Detail1"]; ?></li>
                             <br>
 
@@ -52,12 +55,12 @@ $Concerts = getConcerts($pdo);
 
 
                         </ul>
-                        </p>
-
+                        
                     </div>
                 </div>
-
+                
             </div>
+            
         <?php } ?>
 
     </main>
