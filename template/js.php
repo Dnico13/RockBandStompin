@@ -13,4 +13,4 @@
 <script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
 <script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
 <script src="js/custom.js"></script>
-<script src=".js/alert.js"></script>
+<script src="js/alerte.js"></script>

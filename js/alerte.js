@@ -1,13 +1,16 @@
+
+
+
 function del(){
-    return confirm("Etes  vous certain de supprimer cet Elément?");
+     return confirm("Etes  vous certain de supprimer cet Elément?");
 };
 
 function mod(){
-    return confirm("Les modifications sont elles correctes ?");
+    return confirm("Merci de confirmer l'envoi des données?");
 };
 
 function deco(){
-    return confirm(" Etes vous certain de vous déconnecter ?");
+      return confirm(" Etes vous certain de vous déconnecter ?");
 };
 
 function send(){
@@ -18,3 +21,9 @@ function send(){
     }
      
 };
+
+function sendContact() {
+    return confirm("Confirmez-vous l'envoi de votre demande ?");
+
+    
+}

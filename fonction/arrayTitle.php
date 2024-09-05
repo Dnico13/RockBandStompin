@@ -7,5 +7,5 @@ $title = [
 "evenements.php" => " Les dates de concerts du groupe",
 "video.php" => " Les videos du groupe.",
 "contact.php" => "Contactez le groupe !!!",
-"vente.php" => "Achat des titres sur bandcamp.com"
+"vente.php" => "Téléchargement des titres sur bandcamp.com"
 ];

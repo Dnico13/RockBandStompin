@@ -155,9 +155,9 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
 
 
                             <td class="text-center">
-                                <form action="./fonction/deleteAlbum.php" method="get">
+                                <form action="./fonction/deleteAlbum.php" method="get" onsubmit="return del()">
                                     <input type="hidden" name="id" value="<?= $Album['id']; ?>">
-                                    <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
+                                    <button class="btn btn-secondary" type="submit" >Supprimer</button>
                                 </form>
 
                             </td>
@@ -212,9 +212,9 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
                             </tr>
 
                             <td class="text-center">
-                                <form action="./fonction/deleteEvent.php" method="get">
+                                <form action="./fonction/deleteEvent.php" method="get" onsubmit="return del()">
                                     <input type="hidden" name="id" value="<?= $concert['id']; ?>">
-                                    <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
+                                    <button class="btn btn-secondary" type="submit" >Supprimer</button>
                                 </form>
 
                             </td>
@@ -253,9 +253,9 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
                             </tr>
 
                             <td class="text-center">
-                                <form action="./fonction/deletePiste.php" method="get">
+                                <form action="./fonction/deletePiste.php" method="get" onsubmit="return del()">
                                     <input type="hidden" name="id" value="<?= $Piste['id_piste']; ?>">
-                                    <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
+                                    <button class="btn btn-secondary" type="submit">Supprimer</button>
                                 </form>
 
                             </td>
@@ -303,9 +303,9 @@ if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
                             </tr>
 
                             <td class="text-center">
-                                <form action="./fonction/deleteVideo.php" method="get">
+                                <form action="./fonction/deleteVideo.php" method="get" onsubmit="return del()">
                                     <input type="hidden" name="id" value="<?= $Video['id_video']; ?>">
-                                    <button class="btn btn-secondary" type="submit" onclick="return del()">Supprimer</button>
+                                    <button class="btn btn-secondary" type="submit" >Supprimer</button>
                                 </form>
 
                             </td>

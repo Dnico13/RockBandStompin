@@ -44,7 +44,7 @@ require_once 'fonction/sendContact.php';
                     <div class="col-lg-6">
                         <div class="contact_form_container">
                             <div class="contact_title">Laissez nous un message...</div>
-                            <form action="" method="post" class="contact_form" id="contact_form">
+                            <form action="" method="post" class="contact_form" id="contact_form" onsubmit=" return sendContact()">
 
                                 <input type="text" class="contact_input" placeholder="Nom" required="required" name="nom">
                                 <input type="text" class="contact_input" placeholder="Prenom" required="required" name="prenom">
@@ -53,7 +53,7 @@ require_once 'fonction/sendContact.php';
                                 <input type="text" class="contact_input" placeholder="Objet" required="required" name="detail">
                                 <input type="hidden" name="objet" value="contact@stompin-bones.fr">
                                 <textarea class="contact_input contact_textarea" placeholder="Votre Message" required="required" name="message"></textarea>
-                                <button class="contact_button" type="submit" name="submit">Envoyer</button>
+                                <button class="contact_button" type="submit" name="submit" >Envoyer</button>
 
                             </form>
                         </div>

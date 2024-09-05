@@ -13,7 +13,7 @@ require_once 'fonction/url.php';
         <div class="log_reg">
             <ul class="d-flex flex-row align-items-start justify-content-start">
                 <li>
-                    <form action="./log/logout.php" method="POST" class="align-self-end col-1">
+                    <form action="./log/logout.php" method="POST" class="align-self-end col-1" onsubmit=" return deco()">
                         <input type="hidden" name="logout" value="">
                         <button class="btn btn-outline-dark" type="submit" onclick="return deco()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">

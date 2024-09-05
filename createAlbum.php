@@ -11,13 +11,13 @@ createNewAlbum($pdo);
     <?php
     require_once './template/menu_admin.php'
     ?>
- <main class="mainBis Espace1">
+ <main class="mainBis  ">
         <!-- integration du formulaire de creation de realisation du texte -->
-        <div class="container d-flex flex-column justify-content-center">
+        <div class="container d-flex flex-column justify-content-center Espace1">
 
-            <div class="row">
+            <div class="row Espace1 mt-2">
 
-                <form class="w-50 m-auto" action="./createAlbum.php" method="POST" enctype="multipart/form-data" target="_self">
+                <form class="w-50 m-auto" action="./createAlbum.php" method="POST" enctype="multipart/form-data" target="_self" onsubmit="return mod()">
                     <div class="mb-2">
                         <label for="nom" class="form-label">Nom de l'Album</label>
                         <input type="text" name="nom" class="form-control" id="Nom" required>
