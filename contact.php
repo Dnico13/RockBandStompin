@@ -25,7 +25,7 @@ require_once 'fonction/sendContact.php';
         <div class="home">
             <div class="home_inner">
                 <!-- Image artist: https://unsplash.com/@yoannboyer -->
-                <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.webp" data-speed="0.8"></div>
+                <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/illustrationContact.png" data-speed="0.8"></div>
                 <div class="home_container">
                     <div class="home_content text-center">
                         <div class="home_subtitle">Pour nous</div>

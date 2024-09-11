@@ -12,7 +12,7 @@ $Pistes = getPistes($pdo);
     <?php
     require_once 'template/menu.php';
     ?>
-    <main class="mainBis">
+    <main class="mainBis ">
 
         <div class="container w-100 w-md-50  Espace1  text-justify text-md-center presentation mb-5">
             
