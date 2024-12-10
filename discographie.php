@@ -16,11 +16,11 @@ $Albums = getAlbums($pdo);
 
         <div class=" container w-100 w-sm-50 Espace1 text-justify text-md-center presentation">
             <p class="h5">
-                Découvrez notre univers musical à travers cette discographie, où chaque morceau raconte une histoire unique et passionnante.
+                Découvrez notre univers musical à travers notre discographie, chaque morceau raconte une histoire unique et saisissante.
             </p>
             <br>
             <p class="h5">
-                Plongez dans nos créations et laissez-vous emporter par les rythmes et les mélodies qui définissent notre parcours artistique.
+                Plongez dans nos créations et laissez-vous emporter par les rythmes et les mélodiees qui vous amènent dans les bas-fonds des Juke Joint des US.
             </p>
         </div>
         <?php

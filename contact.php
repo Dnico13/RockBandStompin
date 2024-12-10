@@ -101,12 +101,12 @@ require_once 'fonction/sendContact.php';
                             <div class="social">
                                 <ul class="d-flex flex-row align-items-start justify-content-start">
                                     <!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
-                                    <li><a href="https://www.facebook.com/people/Stompinbones/100066665325532" target="_blank" title="Lien Facebook"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 3rem;"></i></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCXsiOpECrgq7XfnORE-qXzw" target="_blank" title="Lien YouTube"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 3rem;" title="lien YouTube"></i></a></li>
-                                    <!--<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
+                                    <li><a href="https://www.facebook.com/people/Stompinbones/100066665325532" target="_blank" title="Lien sur notre page Facebook"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 3rem;"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCXsiOpECrgq7XfnORE-qXzw" target="_blank" title="Lien sur notre chaine YouTube"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 3rem;"></i></a></li>
+                                    <li><a href="https://thestompinbones.bandcamp.com/album/bad-covers-and-dirty-songs" target="_blank" title="Lien sur notre Bandcamp"> <i class="fa fa-bandcamp" aria-hidden="true" style="font-size: 3rem;"></i></a></li>
                                     <!--<li><a href="#"><i class="fa fa-dribbble" aria-hiden="true"></i></a></li>-->
                                     <!--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
                                 </ul>
                             </div>
                         </div>

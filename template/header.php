@@ -13,7 +13,7 @@
 		<?php if (isset($title[$url_final])) {
 			echo $title[$url_final];
 		} else {
-			echo "Groupe de Crazy Blues de la région paloise.";
+			echo "Groupe de Crazy Blues de la région de Pau.";
 		} ?>
 	</title>
 
@@ -21,8 +21,8 @@
 
 	<meta name="author" content="NDev0223.fr">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Website des  Stompin'Bones: groupe de rock de la region Paloise.">
-	<meta name="keyword" content="Groupe de rock, pau, contrebasse, guitare, Crazy Blues, Rockabilly, homemade sounds, ramblin'blues, rockin'blue, Psychobilly, sud-ouest, bayonne,">
+	<meta name="description" content="Website officiel des  Stompin'Bones: Duo de rockin'blue Pau.">
+	<meta name="keyword" content="Duo de rock, Pau, Pyrénées,scéne musicales, concerts, contrebasse, guitare, Crazy Blues, Rockabilly, homemade sounds, ramblin'blues, rockin'blue, Psychobilly, sud-ouest, Bayonne, musiciens, musique, Ampli Billiére">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="icon" type="image/x-icon" href="logo2.ico">

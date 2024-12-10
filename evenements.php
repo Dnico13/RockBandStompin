@@ -16,12 +16,12 @@ $Concerts = getConcerts($pdo);
     <main class="mainBis vh-100 d-flex flex-column justify-content-center align-items-center">
 
         <div class=" container w-100 w-md-50 Espace1 text-justify text-md-center presentation ">
-            <p class="h5">Rejoignez-nous pour des moments inoubliables en live !</p>
+            <p class="h5">Rejoignez-nous lors de nos prochains concerts live !</p>
             <br>
-            <p class="h5"> Consultez notre calendrier de concerts pour découvrir où et quand nous jouerons près de chez vous.</p>
+            <p class="h5"> Consultez notre calendrier, pour découvrir quand  nous jouerons près de chez vous.</p>
             <br>
             <p class="h5">
-                Préparez-vous à vivre des expériences musicales uniques et à partager des souvenirs mémorables avec nous.
+                Préparez-vous à vivre des concerts sans concessions et peut etre  à partager la scéne avec nous en nous accompagnant aux maracas.
             </p>
         </div>
 
