@@ -2,7 +2,7 @@
 
 $title = [
 
-"index.php"=> " Groupe de Crazy Blues de la région paloise.",
+"index.php"=> " Duo de Crazy Blues de la région paloise.",
 "discographie.php" => "Discographie du groupe.",
 "evenements.php" => " Les dates de concerts du groupe",
 "video.php" => " Les videos du groupe.",

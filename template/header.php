@@ -13,13 +13,13 @@
 		<?php if (isset($title[$url_final])) {
 			echo $title[$url_final];
 		} else {
-			echo "Groupe de Crazy Blues de la région de Pau.";
+			echo "Duo de Crazy Blues de la région de Pau.";
 		} ?>
 	</title>
 
 	<meta charset="utf-8">
 
-	<meta name="author" content="NDev0223.fr">
+	<meta name="author" content="Nicolas Delannay : www.ndev2023.fr">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Website officiel des  Stompin'Bones: Duo de rockin'blue Pau.">
 	<meta name="keyword" content="Duo de rock, Pau, Pyrénées,scéne musicales, concerts, contrebasse, guitare, Crazy Blues, Rockabilly, homemade sounds, ramblin'blues, rockin'blue, Psychobilly, sud-ouest, Bayonne, musiciens, musique, Ampli Billiére">
